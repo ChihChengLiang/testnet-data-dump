@@ -22,6 +22,9 @@ library(ggplot2)
 
 ```
 
+Reproduce data and repo: https://github.com/ChihChengLiang/testnet-data-dump
+
+
 ```{r}
 epoch_info <- stream_in(file("data/epoch.json"), verbose = FALSE)
 ```
